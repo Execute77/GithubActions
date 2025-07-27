@@ -1,0 +1,10 @@
+name: Action1
+on: push
+jobs:
+    firstJob:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Welcome message
+          run: echo "Hi this is a message from the first step of first job"
+              
+    
