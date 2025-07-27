@@ -10,7 +10,7 @@ jobs:
 
         - uses: actions/checkout@v4
 
-        - name: Welcome message
+        - name: Welcome message And show files
           run: |
             echo "Running the action file"
             ls
