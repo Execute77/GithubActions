@@ -7,16 +7,14 @@ jobs:
         runs-on: ubuntu-latest
         
         steps:
-        
-        - name: Welcome message
-          run: echo "Hi this is a message from the first step of first job"
 
         - uses: actions/checkout@v4
+
+        - name: Welcome message
+          run: |
+            echo "Running the action file"
+            ls
+            tree
         
-        - name: List Files
-          run: ls
-        
-        - name: Tree structure of project
-          run: tree    
               
     
