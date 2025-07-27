@@ -1,6 +1,5 @@
 name: Action1
-on: 
-  workflow_dispatch:
+on: push
 jobs:
     firstJob:
         runs-on: ubuntu-latest
